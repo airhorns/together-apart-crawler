@@ -97,5 +97,4 @@ def crawl():
 
 crawl()
 reactor.run()
-
-print(KeywordsPipeline.keywords)
+logging.warning("Completed scrape")
